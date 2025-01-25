@@ -1,0 +1,186 @@
+{
+  "Outlet": [
+    {
+      "id": 1,
+      "name": "Laundry Sicepat",
+      "picName": "Sicepat",
+      "picPhone": "08123456789",
+      "picEmail": "sicepat@laundry.com",
+      "password": "sicepat123",
+      "address": "Jl. Raya Jakarta",
+      "latitude": -6.2133,
+      "longitude": 106.8167
+    },
+    {
+      "id": 2,
+      "name": "Laundry JNE",
+      "picName": "JNE",
+      "picPhone": "08123456789",
+      "picEmail": "jne@laundry.com",
+      "password": "jne123",
+      "address": "Jl. Raya Jakarta",
+      "latitude": -6.1133,
+      "longitude": 106.7167
+    },
+    {
+      "id": 3,
+      "name": "Laundry POS Indonesia",
+      "picName": "POS Indonesia",
+      "picPhone": "08123456789",
+      "picEmail": "pos@laundry.com",
+      "password": "pos123",
+      "address": "Jl. Raya Jakarta",
+      "latitude": -6.0133,
+      "longitude": 106.6167
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "position": "Manager",
+      "salary": 5000000,
+      "address": "Jl. Raya Jakarta",
+      "outletId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "position": "Staff",
+      "salary": 2000000,
+      "address": "Jl. Raya Jakarta",
+      "outletId": 1
+    },
+    {
+      "id": 3,
+      "name": "Bob Smith",
+      "position": "Manager",
+      "salary": 6000000,
+      "address": "Jl. Raya Jakarta",
+      "outletId": 2
+    },
+    {
+      "id": 4,
+      "name": "Alice Johnson",
+      "position": "Staff",
+      "salary": 2500000,
+      "address": "Jl. Raya Jakarta",
+      "outletId": 2
+    },
+    {
+      "id": 5,
+      "name": "Mike Brown",
+      "position": "Manager",
+      "salary": 7000000,
+      "address": "Jl. Raya Jakarta",
+      "outletId": 3
+    },
+    {
+      "id": 6,
+      "name": "Emily Davis",
+      "position": "Staff",
+      "salary": 3000000,
+      "address": "Jl. Raya Jakarta",
+      "outletId": 3
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Service 1",
+      "description": "This is service 1",
+      "price": 10000
+    },
+    {
+      "id": 2,
+      "name": "Service 2",
+      "description": "This is service 2",
+      "price": 20000
+    },
+    {
+      "id": 3,
+      "name": "Service 3",
+      "description": "This is service 3",
+      "price": 30000
+    },
+    {
+      "id": 4,
+      "name": "Service 4",
+      "description": "This is service 4",
+      "price": 40000
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "name": "Expense 1",
+      "description": "This is expense 1",
+      "amount": 10000,
+      "outletId": 1
+    },
+    {
+      "id": 2,
+      "name": "Expense 2",
+      "description": "This is expense 2",
+      "amount": 20000,
+      "outletId": 2
+    },
+    {
+      "id": 3,
+      "name": "Expense 3",
+      "description": "This is expense 3",
+      "amount": 30000,
+      "outletId": 3
+    },
+    {
+      "id": 4,
+      "name": "Expense 4",
+      "description": "This is expense 4",
+      "amount": 40000,
+      "outletId": 1
+    },
+    {
+      "id": 5,
+      "name": "Expense 5",
+      "description": "This is expense 5",
+      "amount": 50000,
+      "outletId": 2
+    },
+    {
+      "id": 6,
+      "name": "Expense 6",
+      "description": "This is expense 6",
+      "amount": 60000,
+      "outletId": 3
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Customer 1",
+      "email": "customer1@example.com",
+      "phone": "1234567890",
+      "address": "Jl. Raya Jakarta",
+      "latitude": -8.175,
+      "longitude": 115.174
+    },
+    {
+      "id": 2,
+      "name": "Customer 2",
+      "email": "customer2@example.com",
+      "phone": "9876543210",
+      "address": "Jl. Raya Bandung",
+      "latitude": -8.975,
+      "longitude": 135.174
+    },
+    {
+      "id": 3,
+      "name": "Customer 3",
+      "email": "customer3@example.com",
+      "phone": "5555555555",
+      "address": "Jl. Raya Surabaya",
+      "latitude": -8.475,
+      "longitude": 155.174
+    }
+  ]
+}

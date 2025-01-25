@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "flowbite";
+
+:root {
+  --background: #4db6ac;
+  --foreground: #0d0c0c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #4db6ac;
+    --foreground: #0a0a0a;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+html,
+body,
+#__next {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
